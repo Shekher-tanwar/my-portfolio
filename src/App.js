@@ -98,10 +98,10 @@ const Portfolio = () => {
   ];
 
   const skills = [
-    { name: "Frontend Development", icon: Code, skills: ["React", "JavaScript", "TypeScript", "HTML5", "CSS3", "Bootstrap", "Tailwind CSS"] },
-    { name: "Backend Development", icon: Code, skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "REST APIs"] },
+    { name: "Frontend Development", icon: Code, skills: ["React", "Angular","JavaScript", "TypeScript", "HTML5", "CSS3", "Bootstrap", "Tailwind CSS"] },
+    { name: "Backend Development", icon: Code, skills: ["Node.js", "NestJS", "PostgreSQL", "REST APIs"] },
     // { name: "Design & UI/UX", icon: Palette, skills: ["Figma", "Adobe XD", "Photoshop", "Responsive Design", "User Research"] },
-    { name: "Mobile Development", icon: Smartphone, skills: ["React Native", "Flutter", "iOS", "Android", "Cross-platform"] }
+    { name: "Mobile Development", icon: Smartphone, skills: ["React Native", "iOS", "Android", "Cross-platform"] }
   ];
 
   return (
@@ -212,7 +212,7 @@ const Portfolio = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop"
+                src={assets.development}
                 alt="About"
                 className="rounded-lg shadow-lg"
               />
@@ -220,7 +220,7 @@ const Portfolio = () => {
             <div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">Passionate Software Developer</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                With over 2 years of experience in web and Android development, I specialize in creating modern, responsive, and user-friendly applications. My journey started with a curiosity about how websites work, which evolved into a passion for crafting digital experiences that make a difference.
+                With over 3 years of experience in web and Android development, I specialize in creating modern, responsive, and user-friendly applications. My journey started with a curiosity about how websites work, which evolved into a passion for crafting digital experiences that make a difference.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 I believe in the power of clean code, thoughtful design, and continuous learning. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.
@@ -231,7 +231,7 @@ const Portfolio = () => {
                   <div className="text-gray-600">Projects Completed</div>
                 </div>
                 <div className="text-center p-4 bg-gray-50 rounded-lg">
-                  <div className="text-2xl font-bold text-purple-600">2+</div>
+                  <div className="text-2xl font-bold text-purple-600">3</div>
                   <div className="text-gray-600">Years Experience</div>
                 </div>
               </div>
@@ -260,7 +260,7 @@ const Portfolio = () => {
                   ))}
                 </div>
               </div>
-            ))}
+            ))} 
           </div>
         </div>
       </section>
@@ -334,10 +334,10 @@ const Portfolio = () => {
                   <Mail className="text-blue-600 mr-4" size={20} />
                   <span className="text-gray-600">shekhar.tanwar889@gmail.com</span>
                 </div>
-                <div className="flex items-center">
+                {/* <div className="flex items-center">
                   <Github className="text-blue-600 mr-4" size={20} />
                   <span className="text-gray-600"><a href="https://github.com/Shekher-tanwar" target="_blank" rel="noopener noreferrer">github.com/shekher-tanwar</a></span>
-                </div>
+                </div> */}
                 <div className="flex items-center">
                   <Linkedin className="text-blue-600 mr-4" size={20} />
                   <span className="text-gray-600"><a href="https://www.linkedin.com/in/shekher-tanwar-0310b3255/" target="_blank" rel="noopener noreferrer">linkedin.com/shekher-tanwar</a></span>
@@ -394,13 +394,13 @@ const Portfolio = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8">
+      {/* <footer className="bg-gray-900 text-white py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-400">
            Built with React & Tailwind CSS.
           </p>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 };
