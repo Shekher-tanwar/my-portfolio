@@ -101,7 +101,7 @@ const Portfolio = () => {
     { name: "Frontend Development", icon: Code, skills: ["React", "Angular","JavaScript", "TypeScript", "HTML5", "CSS3", "Bootstrap", "Tailwind CSS"] },
     { name: "Backend Development", icon: Code, skills: ["Node.js", "NestJS", "PostgreSQL", "REST APIs"] },
     // { name: "Design & UI/UX", icon: Palette, skills: ["Figma", "Adobe XD", "Photoshop", "Responsive Design", "User Research"] },
-    { name: "Mobile Development", icon: Smartphone, skills: ["React Native", "iOS", "Android", "Cross-platform"] }
+    { name: "Mobile Development", icon: Smartphone, skills: ["React Native","Ionic", "iOS", "Android", "Cross-platform"] }
   ];
 
   return (
