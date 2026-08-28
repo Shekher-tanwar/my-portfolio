@@ -167,7 +167,7 @@ const Portfolio = () => {
               className="w-44 h-44 rounded-full mx-auto mb-8 border-4 border-white shadow-lg"
             />
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
-              Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Shekhar Tanwar</span>
+              Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Shekher Tanwar</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Software Developer passionate about creating Responsive and User-Friendly Web and Android Applications.
@@ -293,7 +293,7 @@ const Portfolio = () => {
                       </span>
                     ))}
                   </div>
-                  <div className="flex space-x-4">
+                  {/* <div className="flex space-x-4">
                     <a
                       href={project.github}
                       className="flex items-center text-gray-600 hover:text-blue-600 transition-colors"
@@ -308,7 +308,7 @@ const Portfolio = () => {
                       <ExternalLink size={16} className="mr-1" />
                       Live Demo
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}
