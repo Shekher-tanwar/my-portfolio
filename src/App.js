@@ -11,6 +11,7 @@ const Portfolio = () => {
     email: '',
     message: ''
   });
+  
 
   // Smooth scroll to section
   const scrollToSection = (sectionId) => {
