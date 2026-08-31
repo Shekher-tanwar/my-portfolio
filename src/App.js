@@ -73,10 +73,10 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
+      title: "CRM Platform",
+      description: "Full-stack CRM solution with React, Node.js, and MYSQL. Features include user authentication, payment integration, and admin dashboard.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
+      tech: ["React", "Node.js", "MYSQL", "Stripe"],
       github: "#",
       live: "#"
     },
@@ -89,10 +89,10 @@ const Portfolio = () => {
       live: "#"
     },
     {
-      title: "Weather Dashboard",
-      description: "Interactive weather dashboard with location-based forecasts, charts, and responsive design for all devices.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop",
-      tech: ["React", "OpenWeather API", "Chart.js", "Tailwind"],
+      title: "Expense Management",
+      description: "Interactive Expense management with location-based forecasts, charts, and responsive design for all devices.",
+      image: assets.expenseImage,
+      tech: ["React", "Chart.js", "Tailwind"],
       github: "#",
       live: "#"
     }
